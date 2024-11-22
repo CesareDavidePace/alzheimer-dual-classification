@@ -1,0 +1,9 @@
+defaults:
+  - model: model        # Refers to config/model.yaml
+  - data: data          # Refers to config/data.yaml
+  - training: training  # Refers to config/training.yaml
+  - _self_              # Ensures overrides in this file apply last
+  
+seed: 42
+project_name: "MNIST Classification"
+save_results: False
